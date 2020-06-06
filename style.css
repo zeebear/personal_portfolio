@@ -1,0 +1,52 @@
+@-ms-viewport{
+  width: extend-to-zoom;
+  zoom: 1.0;
+}
+/* as found here: https://webdesign.tutsplus.com/articles/quick-tip-dont-forget-the-viewport-meta-tag--webdesign-5972 */
+@media screen and (max-width: 700px) {
+
+}
+
+@media screen and (min-width: 700px) {
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background-color: #fff;
+  color: #000;
+  width: 100%;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  height: 24px;
+  width: 100%;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+#welcome-section {
+  height: 100vh;
+  background-color: purple;
+}
+
+#projects {
+  background-color: green;
+  height: 50vh;
+}
+
+#contact {
+  background-color: yellow;
+  height: 20vh;
+}
