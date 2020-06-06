@@ -24,20 +24,27 @@ body {
 #navbar {
   position: sticky;
   top: 0;
-  height: 24px;
+  height: 5vh;
   width: 100%;
+  margin: 0;
+  background-color: orange;
+  /*display: none;*/
 }
 
 #navbar ul {
   list-style: none;
   display: flex;
-  justify-content: right;
+  justify-content: space-around;
   align-items: center;
   font-family: sans-serif;
 }
 
+h1, p, ul {
+  margin: 0;
+}
+
 #welcome-section {
-  height: 100vh;
+  height: 95vh;
   background-color: purple;
 }
 
