@@ -12,15 +12,8 @@ body {
   color: #000;
   width: 100%;
   font-family: monospace;
+  font-size: 1em;
   box-sizing: border-box;
-}
-
-@media screen and (max-width: 700px) {
-
-}
-
-@media screen and (min-width: 700px) {
-
 }
 
 #navbar {
@@ -40,7 +33,7 @@ body {
   align-items: center;
 }
 
-h1, h2, p, ul {
+section, div, h1, h2, h3, p, ul, li, a, img {
   margin: 0;
 }
 
@@ -53,12 +46,80 @@ a {
   background-color: purple;
 }
 
+#welcome-section img {
+  display: block;
+}
+
+#welcome-section h1 {
+  text-align: center;
+}
+
 #projects {
   background-color: green;
-  height: 50vh;
+}
+
+#projects h2 {
+  margin: 0 auto;
+}
+
+#flex-wrapper {
+  margin: 0 5vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 #contact {
   background-color: yellow;
   height: 20vh;
+}
+
+.project-tile {
+  background-color: lightgrey;
+  margin: 2em;
+}
+
+.project-tile h3 {
+}
+
+.tile-footer {
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+
+  .project-tile {
+    max-width: 95vw;
+  }
+
+  .project-tile img {
+    max-width: 95vw;
+  }
+
+}
+
+@media screen and (min-width: 700px) {
+
+  #welcome-section {
+    width: 40vw;
+    margin: 0 auto;
+  }
+
+  #welcome-section img {
+    width: 20vw;
+    margin: 2em auto;
+  }
+
+  .project-tile {
+    width: 25vw;
+    max-width: 400px;
+    min-width: 250px;
+  }
+
+  .project-tile img {
+    width: 25vw;
+    max-width: 400px;
+    min-width: 250px;
+  }
+
 }
