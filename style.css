@@ -25,7 +25,8 @@ body {
     top: 0;
     height: 5vh;
     width: 100%;
-    background-color: orange;
+    background-color: #f0f0f0;
+    padding-top: 1vh;
 }
 
 #navbar ul {
@@ -34,6 +35,17 @@ body {
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    font-size: 3vh;
+}
+
+#navbar a:active,
+a:hover {
+    color: orange;
+}
+
+#navbar a,
+a:visited {
+    color: #037bd6;
 }
 
 section,
@@ -55,12 +67,20 @@ a {
 
 #welcome-section {
     height: 100vh;
-    background-color: purple;
+    background-image: linear-gradient(
+        to right top,
+        #663399,
+        #5752b0,
+        #496cc1,
+        #4384cd,
+        #4d9ad4
+    );
     overflow: scroll;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
+    color: #f0f0f0;
 }
 
 #welcome-section-image {
@@ -79,6 +99,11 @@ a {
 
 #welcome-section p {
     font-size: 1.2em;
+    line-height: 150%;
+}
+
+#welcome-section a {
+    color: silver;
 }
 
 #projects {
