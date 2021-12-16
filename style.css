@@ -38,6 +38,10 @@ body {
     font-size: 3vh;
 }
 
+#navbar a {
+    text-decoration: none;
+}
+
 #navbar a:active,
 a:hover {
     color: orange;
@@ -46,23 +50,6 @@ a:hover {
 #navbar a,
 a:visited {
     color: #037bd6;
-}
-
-section,
-div,
-h1,
-h2,
-h3,
-p,
-ul,
-li,
-a,
-img {
-    margin: 0;
-}
-
-a {
-    text-decoration: none;
 }
 
 #welcome-section {
@@ -104,15 +91,45 @@ a {
 }
 
 #welcome-section a {
-    color: silver;
+    color: lightgray;
+}
+
+#welcome-section a:active,
+a:hover {
+    color: orange;
 }
 
 #projects {
+    /*
     background-color: green;
+    */
+    background-image: linear-gradient(
+        to left top,
+        #4d9ad4,
+        #4384cd,
+        #496cc1,
+        #5752b0,
+        #663399
+    );
 }
 
 #projects h2 {
     margin: 0 auto;
+    text-align: center;
+    font-size: 3em;
+    padding: 1em 0;
+    color: white;
+}
+
+#projects a,
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+#projects a:active,
+a:hover {
+    color: orange;
 }
 
 #flex-wrapper {
@@ -134,6 +151,8 @@ a {
 
 .project-tile h3 {
     font-family: "Courier New", Courier, monospace;
+    font-size: 1.2em;
+    line-height: 150%;
 }
 
 .tile-footer {
