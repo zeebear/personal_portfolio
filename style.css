@@ -168,7 +168,7 @@ a:hover {
     text-align: center;
 }
 
-/* footer ---------------- */
+/* contact ---------------- */
 
 #contact {
     background-color: #f0f0f0;
@@ -196,6 +196,18 @@ a:visited {
 #logos a:active,
 a:hover {
     color: orange;
+}
+
+/* footer ---------------- */
+
+#footer {
+    background-color: #f0f0f0;
+    color: #037bd6;
+}
+
+#footer p {
+    max-width: 40vw;
+    margin: 0 auto;
 }
 
 /* media queries ---------------- */
