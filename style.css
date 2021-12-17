@@ -20,6 +20,14 @@ body {
     width: 100%;
 }
 
+h2 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3em;
+}
+
+/* navbar ---------------- */
+
 #navbar {
     position: fixed;
     top: 0;
@@ -51,6 +59,8 @@ a:hover {
 a:visited {
     color: #037bd6;
 }
+
+/* welcome section ---------------- */
 
 #welcome-section {
     height: 100vh;
@@ -99,6 +109,8 @@ a:hover {
     color: orange;
 }
 
+/* projects ---------------- */
+
 #projects {
     /*
     background-color: green;
@@ -114,11 +126,8 @@ a:hover {
 }
 
 #projects h2 {
-    margin: 0 auto;
-    text-align: center;
-    font-size: 3em;
-    padding: 1em 0;
     color: white;
+    padding: 1em 0;
 }
 
 #projects a,
@@ -159,9 +168,37 @@ a:hover {
     text-align: center;
 }
 
+/* footer ---------------- */
+
 #contact {
     background-color: #f0f0f0;
+    color: #037bd6;
+    padding: 1em 0;
 }
+
+#logos {
+    display: flex;
+    justify-content: space-around;
+    max-width: 40vw;
+    margin: 0 auto;
+    font-size: 1.5em;
+}
+
+#logos a,
+a:visited {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #037bd6;
+    font-weight: bold;
+}
+
+#logos a:active,
+a:hover {
+    color: orange;
+}
+
+/* media queries ---------------- */
 
 @media screen and (max-width: 700px) {
     #welcome-section h1 {
